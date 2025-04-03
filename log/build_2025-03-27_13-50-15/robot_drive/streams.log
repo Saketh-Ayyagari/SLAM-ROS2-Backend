@@ -1,0 +1,18 @@
+[0.575s] Invoking command in '/home/tarkin/rover_ws/build/robot_drive': PYTHONPATH=/home/tarkin/rover_ws/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarkin/rover_ws/install/robot_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tarkin/rover_ws/build/robot_drive/build --no-deps symlink_data
+[0.827s] running develop
+[0.984s] running egg_info
+[0.984s] writing robot_drive.egg-info/PKG-INFO
+[0.984s] writing dependency_links to robot_drive.egg-info/dependency_links.txt
+[0.984s] writing entry points to robot_drive.egg-info/entry_points.txt
+[0.984s] writing requirements to robot_drive.egg-info/requires.txt
+[0.985s] writing top-level names to robot_drive.egg-info/top_level.txt
+[0.986s] reading manifest file 'robot_drive.egg-info/SOURCES.txt'
+[0.987s] writing manifest file 'robot_drive.egg-info/SOURCES.txt'
+[0.988s] running build_ext
+[0.988s] Creating /home/tarkin/rover_ws/install/robot_drive/lib/python3.10/site-packages/robot-drive.egg-link (link to .)
+[0.989s] Installing joy_node script to /home/tarkin/rover_ws/install/robot_drive/lib/robot_drive
+[0.989s] Installing send_power script to /home/tarkin/rover_ws/install/robot_drive/lib/robot_drive
+[0.989s] 
+[0.989s] Installed /home/tarkin/rover_ws/build/robot_drive
+[0.989s] running symlink_data
+[1.014s] Invoked command in '/home/tarkin/rover_ws/build/robot_drive' returned '0': PYTHONPATH=/home/tarkin/rover_ws/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tarkin/rover_ws/install/robot_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tarkin/rover_ws/build/robot_drive/build --no-deps symlink_data

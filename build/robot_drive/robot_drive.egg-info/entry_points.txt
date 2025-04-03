@@ -1,0 +1,4 @@
+[console_scripts]
+joy_node = robot_drive.joy_node:main
+send_power = robot_drive.send_power:main
+
