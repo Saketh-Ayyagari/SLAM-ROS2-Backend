@@ -1,0 +1,20 @@
+[1.185s] Invoking command in '/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build --no-deps symlink_data --force
+[1.623s] running develop
+[1.882s] running egg_info
+[1.907s] writing robot_drive.egg-info/PKG-INFO
+[1.907s] writing dependency_links to robot_drive.egg-info/dependency_links.txt
+[1.908s] writing entry points to robot_drive.egg-info/entry_points.txt
+[1.909s] writing requirements to robot_drive.egg-info/requires.txt
+[1.910s] writing top-level names to robot_drive.egg-info/top_level.txt
+[1.964s] reading manifest file 'robot_drive.egg-info/SOURCES.txt'
+[1.965s] writing manifest file 'robot_drive.egg-info/SOURCES.txt'
+[1.992s] running build_ext
+[1.992s] Creating /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages/robot-drive.egg-link (link to .)
+[1.993s] Installing joy_node script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[1.993s] Installing send_power script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[1.994s] 
+[1.994s] Installed /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive
+[1.994s] running symlink_data
+[1.994s] symbolically linking /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/resource/robot_drive -> /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/share/ament_index/resource_index/packages
+[1.994s] symbolically linking /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/package.xml -> /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/share/robot_drive
+[2.083s] Invoked command in '/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build --no-deps symlink_data --force
