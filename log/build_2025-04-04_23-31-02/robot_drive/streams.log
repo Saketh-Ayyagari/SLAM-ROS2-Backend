@@ -1,0 +1,19 @@
+[1.179s] Invoking command in '/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build --no-deps symlink_data
+[1.614s] running develop
+[1.876s] running egg_info
+[1.901s] writing robot_drive.egg-info/PKG-INFO
+[1.901s] writing dependency_links to robot_drive.egg-info/dependency_links.txt
+[1.905s] writing entry points to robot_drive.egg-info/entry_points.txt
+[1.906s] writing requirements to robot_drive.egg-info/requires.txt
+[1.908s] writing top-level names to robot_drive.egg-info/top_level.txt
+[1.966s] reading manifest file 'robot_drive.egg-info/SOURCES.txt'
+[1.967s] writing manifest file 'robot_drive.egg-info/SOURCES.txt'
+[1.994s] running build_ext
+[1.994s] Creating /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages/robot-drive.egg-link (link to .)
+[1.995s] Installing joy_node script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[1.996s] Installing pwm script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[1.996s] Installing send_power script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[1.996s] 
+[1.996s] Installed /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive
+[1.996s] running symlink_data
+[2.086s] Invoked command in '/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build --no-deps symlink_data

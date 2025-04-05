@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing robot_drive.egg-info/PKG-INFO
+writing dependency_links to robot_drive.egg-info/dependency_links.txt
+writing entry points to robot_drive.egg-info/entry_points.txt
+writing requirements to robot_drive.egg-info/requires.txt
+writing top-level names to robot_drive.egg-info/top_level.txt
+reading manifest file 'robot_drive.egg-info/SOURCES.txt'
+writing manifest file 'robot_drive.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages/robot-drive.egg-link (link to .)
+Installing joy_node script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+Installing pwm script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+Installing send_power script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+
+Installed /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive
+running symlink_data
+symbolically linking /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/resource/robot_drive -> /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/share/ament_index/resource_index/packages
+symbolically linking /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/package.xml -> /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/share/robot_drive
+symbolically linking /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/launch/drive.launch.py -> /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/share/robot_drive/launch
