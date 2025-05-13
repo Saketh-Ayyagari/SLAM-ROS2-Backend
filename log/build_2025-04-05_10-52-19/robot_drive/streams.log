@@ -1,0 +1,27 @@
+[1.280s] Invoking command in '/home/monkeydluffy/SLAM-ROS2-Backend/src/robot_drive': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_drive build --build-base /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build install --record /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/install.log --single-version-externally-managed install_data
+[1.668s] running egg_info
+[1.696s] writing ../../build/robot_drive/robot_drive.egg-info/PKG-INFO
+[1.696s] writing dependency_links to ../../build/robot_drive/robot_drive.egg-info/dependency_links.txt
+[1.698s] writing entry points to ../../build/robot_drive/robot_drive.egg-info/entry_points.txt
+[1.704s] writing requirements to ../../build/robot_drive/robot_drive.egg-info/requires.txt
+[1.705s] writing top-level names to ../../build/robot_drive/robot_drive.egg-info/top_level.txt
+[1.765s] reading manifest file '../../build/robot_drive/robot_drive.egg-info/SOURCES.txt'
+[1.766s] adding license file 'LICENSE'
+[1.767s] writing manifest file '../../build/robot_drive/robot_drive.egg-info/SOURCES.txt'
+[1.767s] running build
+[1.767s] running build_py
+[1.768s] copying robot_drive/pwm_convert.py -> /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive
+[1.768s] running install
+[1.778s] running install_lib
+[1.807s] copying /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive/pwm_convert.py -> /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages/robot_drive
+[1.808s] byte-compiling /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages/robot_drive/pwm_convert.py to pwm_convert.cpython-312.pyc
+[1.809s] running install_data
+[1.810s] running install_egg_info
+[1.840s] removing '/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages/robot_drive-0.0.0-py3.12.egg-info' (and everything under it)
+[1.843s] Copying ../../build/robot_drive/robot_drive.egg-info to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages/robot_drive-0.0.0-py3.12.egg-info
+[1.843s] running install_scripts
+[2.037s] Installing joy_node script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[2.038s] Installing pwm script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[2.039s] Installing send_power script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[2.039s] writing list of installed files to '/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/install.log'
+[2.122s] Invoked command in '/home/monkeydluffy/SLAM-ROS2-Backend/src/robot_drive' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_drive build --build-base /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build install --record /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/install.log --single-version-externally-managed install_data

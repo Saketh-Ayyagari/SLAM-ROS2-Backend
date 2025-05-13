@@ -13,6 +13,9 @@ launch/drive.launch.py
 resource/robot_drive
 robot_drive/__init__.py
 robot_drive/joy_node.py
+robot_drive/pca9685.py
+robot_drive/pwm_convert.py
+robot_drive/robot_utils.py
 robot_drive/send_power.py
 test/test_copyright.py
 test/test_flake8.py
