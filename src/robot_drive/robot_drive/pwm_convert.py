@@ -5,7 +5,7 @@ from robot_drive.robot_utils import *
 import rclpy as ros2
 from rclpy.node import Node
 from sensor_msgs.msg import Joy
-from ackermann_msgs.msg import AckermannDriveStamped
+from geometry_msgs.msg import Twist
 '''
 Saketh Ayyagari
 Converts joystick values to PWM values that the motor driver can read.
@@ -25,7 +25,7 @@ class PWMConvert(Node):
 
       # initializes node as a publisher to send to
       # "/cmd_vel" topic
-      self.publisher = self.create_publisher(AckermannDriveStamped, 'cmd_vel', 10) 
+      self.publisher = self.create_publisher(Twist, 'cmd_vel', 10) 
    '''
    Converts joystick values to PWM values that the motor driver can read
    '''
@@ -43,12 +43,12 @@ class PWMConvert(Node):
       
 
       # putting information into messages
-      pwm_message = AckermannDriveStamped() # first index is 'drive' value, second index is 'turn' value
+      pwm_message = Twist() # consists of linear and angular components (each w/ x, y, and z components)
 
-      pwm_message.drive.speed = remap_range(drive_joystick, -1, 1, 
+      pwm_message.linear.y = remap_range(drive_joystick, -1, 1, 
       -MAX_FREQ, MAX_FREQ)
 
-      pwm_message.drive.steering_angle = remap_range(turn_joystick, -1, 1, 
+      pwm_message.angular.z = remap_range(turn_joystick, -1, 1, 
       -MAX_FREQ, MAX_FREQ)
 
       # sends pwm values to the /pwm topic

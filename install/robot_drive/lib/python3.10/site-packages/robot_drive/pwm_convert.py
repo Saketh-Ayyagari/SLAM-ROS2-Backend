@@ -1,10 +1,11 @@
 import sys
+sys.path.insert(1, '../')
 from robot_drive.robot_utils import *
 
 import rclpy as ros2
 from rclpy.node import Node
 from sensor_msgs.msg import Joy
-from ackermann_msgs.msg import AckermannDriveStamped
+from geometry_msgs.msg import Twist
 '''
 Saketh Ayyagari
 Converts joystick values to PWM values that the motor driver can read.
@@ -13,6 +14,7 @@ Converts joystick values to PWM values that the motor driver can read.
 # Constants
 ############
 MAX_FREQ = 15000.0
+DEAD_ZONE = 0.04 # minimum value joystick needs to be to power motors. Motor power will be set to 0 if joystick value is less than this value
 
 class PWMConvert(Node): 
    def __init__(self):
@@ -23,7 +25,7 @@ class PWMConvert(Node):
 
       # initializes node as a publisher to send to
       # "/cmd_vel" topic
-      self.publisher = self.create_publisher(AckermannDriveStamped, 'cmd_vel', 10) 
+      self.publisher = self.create_publisher(Twist, 'cmd_vel', 10) 
    '''
    Converts joystick values to PWM values that the motor driver can read
    '''
@@ -32,13 +34,21 @@ class PWMConvert(Node):
       drive_joystick = message.axes[0]
       turn_joystick = message.axes[1]
 
-      # putting information into messages
-      pwm_message = AckermannDriveStamped() # first index is 'drive' value, second index is 'turn' value
+      # checks if joystick values are above dead zone value
+      # else sets them to 0
+      if drive_joystick < DEAD_ZONE or drive_joystick > -DEAD_ZONE:
+         drive_joystick = 0
+      if turn_joystick < DEAD_ZONE or turn_joystick > -DEAD_ZONE:
+         turn_joystick = 0
+      
 
-      pwm_message.drive.speed = remap_range(drive_joystick, -1, 1, 
+      # putting information into messages
+      pwm_message = Twist() # consists of linear and angular components (each w/ x, y, and z components)
+
+      pwm_message.linear.y = remap_range(drive_joystick, -1, 1, 
       -MAX_FREQ, MAX_FREQ)
 
-      pwm_message.drive.steering_angle = remap_range(turn_joystick, -1, 1, 
+      pwm_message.angular.z = remap_range(turn_joystick, -1, 1, 
       -MAX_FREQ, MAX_FREQ)
 
       # sends pwm values to the /pwm topic

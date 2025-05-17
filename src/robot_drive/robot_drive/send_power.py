@@ -4,7 +4,7 @@ from robot_drive.pca9685 import *
 
 import rclpy as ros2
 from rclpy.node import Node
-from ackermann_msgs.msg import AckermannDriveStamped
+from geometry_msgs.msg import Twist
 '''
 Saketh Ayyagari
 Gets joy message and sends power to robot
@@ -17,7 +17,7 @@ class SendPower(Node):
       # initializes node name
       super().__init__("send_power")
       # subscribes to /cmd_vel topic
-      self.subscription = self.create_subscription(AckermannDriveStamped, 
+      self.subscription = self.create_subscription(Twist, 
       'cmd_vel', self.power_callback, 10) 
 
       # initializes pwm motor drive
@@ -27,8 +27,8 @@ class SendPower(Node):
    '''
    def power_callback(self, message):
       # gets pwm values
-      drive = message.drive.speed
-      turn = message.drive.steering_angle
+      drive = message.linear.y
+      turn = message.angular.z
 
       # sends power to each of the motors
       self.set_drive_turn(drive, turn)

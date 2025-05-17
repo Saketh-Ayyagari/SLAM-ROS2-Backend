@@ -7,7 +7,7 @@ from sensor_msgs.msg import Joy
 '''
 Saketh Ayyagari
 Gets joystick values from controller using Pygame and processes them in Joy message.
-Publishes them to /cmd_vel topic
+Publishes them to /joy topic
 '''
 ############
 # Constants

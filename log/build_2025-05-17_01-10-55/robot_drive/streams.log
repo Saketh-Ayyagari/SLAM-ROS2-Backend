@@ -1,0 +1,30 @@
+[2.889s] Invoking command in '/home/monkeydluffy/SLAM-ROS2-Backend/src/robot_drive': PYTHONPATH=/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_drive build --build-base /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build install --record /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/install.log --single-version-externally-managed install_data
+[4.027s] running egg_info
+[4.029s] writing ../../build/robot_drive/robot_drive.egg-info/PKG-INFO
+[4.030s] writing dependency_links to ../../build/robot_drive/robot_drive.egg-info/dependency_links.txt
+[4.031s] writing entry points to ../../build/robot_drive/robot_drive.egg-info/entry_points.txt
+[4.032s] writing requirements to ../../build/robot_drive/robot_drive.egg-info/requires.txt
+[4.033s] writing top-level names to ../../build/robot_drive/robot_drive.egg-info/top_level.txt
+[4.041s] reading manifest file '../../build/robot_drive/robot_drive.egg-info/SOURCES.txt'
+[4.043s] adding license file 'LICENSE'
+[4.046s] writing manifest file '../../build/robot_drive/robot_drive.egg-info/SOURCES.txt'
+[4.046s] running build
+[4.047s] running build_py
+[4.048s] copying robot_drive/pwm_convert.py -> /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive
+[4.049s] copying robot_drive/send_power.py -> /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive
+[4.051s] running install
+[4.052s] running install_lib
+[4.057s] copying /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive/pwm_convert.py -> /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive
+[4.059s] copying /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive/send_power.py -> /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive
+[4.062s] byte-compiling /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive/pwm_convert.py to pwm_convert.cpython-310.pyc
+[4.067s] byte-compiling /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive/send_power.py to send_power.cpython-310.pyc
+[4.070s] running install_data
+[4.071s] running install_egg_info
+[4.083s] removing '/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive-0.0.0-py3.10.egg-info' (and everything under it)
+[4.085s] Copying ../../build/robot_drive/robot_drive.egg-info to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive-0.0.0-py3.10.egg-info
+[4.090s] running install_scripts
+[4.170s] Installing joy_node script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[4.171s] Installing pwm script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[4.172s] Installing send_power script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[4.174s] writing list of installed files to '/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/install.log'
+[4.300s] Invoked command in '/home/monkeydluffy/SLAM-ROS2-Backend/src/robot_drive' returned '0': PYTHONPATH=/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_drive build --build-base /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build install --record /home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/install.log --single-version-externally-managed install_data

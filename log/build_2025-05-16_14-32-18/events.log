@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.001675] (robot_drive) JobQueued: {'identifier': 'robot_drive', 'dependencies': OrderedDict()}
+[0.002316] (robot_drive) JobStarted: {'identifier': 'robot_drive'}
+[0.099270] (-) TimerEvent: {}
+[0.200269] (-) TimerEvent: {}
+[0.300973] (-) TimerEvent: {}
+[0.401673] (-) TimerEvent: {}
+[0.502401] (-) TimerEvent: {}
+[0.603142] (-) TimerEvent: {}
+[0.703835] (-) TimerEvent: {}
+[0.804582] (-) TimerEvent: {}
+[0.905252] (-) TimerEvent: {}
+[1.006192] (-) TimerEvent: {}
+[1.106926] (-) TimerEvent: {}
+[1.207710] (-) TimerEvent: {}
+[1.308623] (-) TimerEvent: {}
+[1.409717] (-) TimerEvent: {}
+[1.510725] (-) TimerEvent: {}
+[1.611496] (-) TimerEvent: {}
+[1.712256] (-) TimerEvent: {}
+[1.812991] (-) TimerEvent: {}
+[1.913719] (-) TimerEvent: {}
+[2.014399] (-) TimerEvent: {}
+[2.115140] (-) TimerEvent: {}
+[2.215815] (-) TimerEvent: {}
+[2.316552] (-) TimerEvent: {}
+[2.417299] (-) TimerEvent: {}
+[2.518058] (-) TimerEvent: {}
+[2.618784] (-) TimerEvent: {}
+[2.719600] (-) TimerEvent: {}
+[2.820438] (-) TimerEvent: {}
+[2.921388] (-) TimerEvent: {}
+[3.022575] (-) TimerEvent: {}
+[3.123901] (-) TimerEvent: {}
+[3.160003] (robot_drive) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_drive', 'build', '--build-base', '/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/build', 'install', '--record', '/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/monkeydluffy/SLAM-ROS2-Backend/src/robot_drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'monkeydluffy', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/monkeydluffy', 'OLDPWD': '/home/monkeydluffy/SLAM-ROS2-Backend/src/robot_drive', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '4354', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/monkeydluffy/SLAM-ROS2-Backend/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'monkeydluffy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'monkeydluffy', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/monkeydluffy/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/wholecakeisland:@/tmp/.ICE-unix/4294,unix/wholecakeisland:/tmp/.ICE-unix/4294', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6e42c6e9_8577_467d_bda1_c923b3df8273', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.94', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages:/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[3.224241] (-) TimerEvent: {}
+[3.325534] (-) TimerEvent: {}
+[3.426404] (-) TimerEvent: {}
+[3.527651] (-) TimerEvent: {}
+[3.628388] (-) TimerEvent: {}
+[3.729118] (-) TimerEvent: {}
+[3.829862] (-) TimerEvent: {}
+[3.930605] (-) TimerEvent: {}
+[4.031318] (-) TimerEvent: {}
+[4.132071] (-) TimerEvent: {}
+[4.232861] (-) TimerEvent: {}
+[4.304633] (robot_drive) StdoutLine: {'line': b'running egg_info\n'}
+[4.307597] (robot_drive) StdoutLine: {'line': b'writing ../../build/robot_drive/robot_drive.egg-info/PKG-INFO\n'}
+[4.308889] (robot_drive) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_drive/robot_drive.egg-info/dependency_links.txt\n'}
+[4.309879] (robot_drive) StdoutLine: {'line': b'writing entry points to ../../build/robot_drive/robot_drive.egg-info/entry_points.txt\n'}
+[4.310683] (robot_drive) StdoutLine: {'line': b'writing requirements to ../../build/robot_drive/robot_drive.egg-info/requires.txt\n'}
+[4.311267] (robot_drive) StdoutLine: {'line': b'writing top-level names to ../../build/robot_drive/robot_drive.egg-info/top_level.txt\n'}
+[4.319858] (robot_drive) StdoutLine: {'line': b"reading manifest file '../../build/robot_drive/robot_drive.egg-info/SOURCES.txt'\n"}
+[4.321378] (robot_drive) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.324206] (robot_drive) StdoutLine: {'line': b"writing manifest file '../../build/robot_drive/robot_drive.egg-info/SOURCES.txt'\n"}
+[4.324899] (robot_drive) StdoutLine: {'line': b'running build\n'}
+[4.325393] (robot_drive) StdoutLine: {'line': b'running build_py\n'}
+[4.328472] (robot_drive) StdoutLine: {'line': b'running install\n'}
+[4.329677] (robot_drive) StdoutLine: {'line': b'running install_lib\n'}
+[4.332992] (-) TimerEvent: {}
+[4.336778] (robot_drive) StdoutLine: {'line': b'running install_data\n'}
+[4.337588] (robot_drive) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.349062] (robot_drive) StdoutLine: {'line': b"removing '/home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.350856] (robot_drive) StdoutLine: {'line': b'Copying ../../build/robot_drive/robot_drive.egg-info to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive-0.0.0-py3.10.egg-info\n'}
+[4.361293] (robot_drive) StdoutLine: {'line': b'running install_scripts\n'}
+[4.433181] (-) TimerEvent: {}
+[4.441831] (robot_drive) StdoutLine: {'line': b'Installing joy_node script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive\n'}
+[4.442825] (robot_drive) StdoutLine: {'line': b'Installing pwm script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive\n'}
+[4.443700] (robot_drive) StdoutLine: {'line': b'Installing send_power script to /home/monkeydluffy/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive\n'}
+[4.447122] (robot_drive) StdoutLine: {'line': b"writing list of installed files to '/home/monkeydluffy/SLAM-ROS2-Backend/build/robot_drive/install.log'\n"}
+[4.533502] (-) TimerEvent: {}
+[4.578794] (robot_drive) CommandEnded: {'returncode': 0}
+[4.634279] (-) TimerEvent: {}
+[4.663263] (robot_drive) JobEnded: {'identifier': 'robot_drive', 'rc': 0}
+[4.667807] (-) EventReactorShutdown: {}

@@ -4,7 +4,7 @@ from robot_drive.pca9685 import *
 
 import rclpy as ros2
 from rclpy.node import Node
-from ackermann_msgs.msg import AckermannDriveStamped
+from geometry_msgs.msg import Twist
 '''
 Saketh Ayyagari
 Gets joy message and sends power to robot
@@ -17,7 +17,7 @@ class SendPower(Node):
       # initializes node name
       super().__init__("send_power")
       # subscribes to /cmd_vel topic
-      self.subscription = self.create_subscription(AckermannDriveStamped, 
+      self.subscription = self.create_subscription(Twist, 
       'cmd_vel', self.power_callback, 10) 
 
       # initializes pwm motor drive
@@ -27,8 +27,8 @@ class SendPower(Node):
    '''
    def power_callback(self, message):
       # gets pwm values
-      drive = message.drive.speed
-      turn = message.drive.steering_angle
+      drive = message.linear.y
+      turn = message.angular.z
 
       # sends power to each of the motors
       self.set_drive_turn(drive, turn)
@@ -36,12 +36,10 @@ class SendPower(Node):
    Given pwm values, control the robot's drive and turn power
    '''
    def set_drive_turn(self, drive, turn):
-      # calculates power given pwm values
+      # calculates differential drive power given values from "drive" and "turn"
       leftPWM = clamp(drive + turn, -MAX_FREQ, MAX_FREQ)
       rightPWM = clamp(drive - turn, -MAX_FREQ, MAX_FREQ)
       
-      self.get_logger().info(f"Left PWM: {leftPWM}")
-      self.get_logger().info(f"Right PWM: {rightPWM}")
       '''
       NOTE: Try to refactor this to make it more readable...
       '''
@@ -59,7 +57,7 @@ class SendPower(Node):
       else:
          self.motor_driver.setServoPulse(DC_MOTOR_PWM1,0) # for TB6612 stop pwm signal
 
-         # changes pwm signals based on sign of the power
+      
       if rightPWM != 0:
          self.motor_driver.setServoPulse(DC_MOTOR_PWM2, abs(rightPWM)) # for right motor set speed
          if rightPWM > 0:
