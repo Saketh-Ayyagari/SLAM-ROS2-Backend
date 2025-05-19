@@ -14,7 +14,7 @@ Converts joystick values to PWM values that the motor driver can read.
 # Constants
 ############
 MAX_FREQ = 15000.0
-DEAD_ZONE = 0.005 # minimum value joystick needs to be to power motors. Motor power will be set to 0 if joystick value is less than this value
+DEAD_ZONE = 0.01 # minimum value joystick needs to be to power motors. Motor power will be set to 0 if joystick value is less than this value
 
 class PWMConvert(Node): 
    def __init__(self):
