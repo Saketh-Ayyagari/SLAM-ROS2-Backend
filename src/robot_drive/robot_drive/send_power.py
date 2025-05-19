@@ -37,8 +37,8 @@ class SendPower(Node):
    '''
    def set_drive_turn(self, drive, turn):
       # calculates differential drive power given values from "drive" and "turn"
-      leftPWM = clamp(drive + turn, -MAX_FREQ, MAX_FREQ)
-      rightPWM = clamp(drive - turn, -MAX_FREQ, MAX_FREQ)
+      leftPWM = clamp(drive - turn, -MAX_FREQ, MAX_FREQ)
+      rightPWM = clamp(drive + turn, -MAX_FREQ, MAX_FREQ)
       
       '''
       NOTE: Try to refactor this to make it more readable...
