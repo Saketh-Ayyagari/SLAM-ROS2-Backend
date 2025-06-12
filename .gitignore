@@ -2,3 +2,5 @@ SLAM-ROS2-Backend/build
 SLAM-ROS2-Backend/install
 SLAM-ROS2-Backend/log
 __pycache__
+SLAM-ROS2-Backend/src/bno055_driver
+SLAM-ROS2-Backend/src/ldlidar_stl_ros2

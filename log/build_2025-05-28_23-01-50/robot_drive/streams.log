@@ -1,0 +1,45 @@
+[2.337s] Invoking command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/robot_drive': PYTHONPATH=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_drive build --build-base /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build install --record /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/install.log --single-version-externally-managed install_data
+[3.228s] running egg_info
+[3.230s] writing ../../build/robot_drive/robot_drive.egg-info/PKG-INFO
+[3.232s] writing dependency_links to ../../build/robot_drive/robot_drive.egg-info/dependency_links.txt
+[3.233s] writing entry points to ../../build/robot_drive/robot_drive.egg-info/entry_points.txt
+[3.234s] writing requirements to ../../build/robot_drive/robot_drive.egg-info/requires.txt
+[3.234s] writing top-level names to ../../build/robot_drive/robot_drive.egg-info/top_level.txt
+[3.242s] reading manifest file '../../build/robot_drive/robot_drive.egg-info/SOURCES.txt'
+[3.245s] adding license file 'LICENSE'
+[3.248s] writing manifest file '../../build/robot_drive/robot_drive.egg-info/SOURCES.txt'
+[3.249s] running build
+[3.250s] running build_py
+[3.253s] copying robot_drive/robot_utils.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive
+[3.255s] copying robot_drive/__init__.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive
+[3.256s] copying robot_drive/pwm_convert.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive
+[3.256s] copying robot_drive/joy_node.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive
+[3.257s] copying robot_drive/send_power.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive
+[3.258s] copying robot_drive/pca9685.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive
+[3.260s] running install
+[3.261s] running install_lib
+[3.266s] copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive/robot_utils.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive
+[3.267s] copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive/__init__.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive
+[3.268s] copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive/pwm_convert.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive
+[3.269s] copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive/joy_node.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive
+[3.270s] copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive/send_power.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive
+[3.271s] copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build/lib/robot_drive/pca9685.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive
+[3.274s] byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive/robot_utils.py to robot_utils.cpython-310.pyc
+[3.276s] byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive/__init__.py to __init__.cpython-310.pyc
+[3.278s] byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive/pwm_convert.py to pwm_convert.cpython-310.pyc
+[3.281s] byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive/joy_node.py to joy_node.cpython-310.pyc
+[3.284s] byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive/send_power.py to send_power.cpython-310.pyc
+[3.287s] byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive/pca9685.py to pca9685.cpython-310.pyc
+[3.290s] running install_data
+[3.292s] copying resource/robot_drive -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/share/ament_index/resource_index/packages
+[3.293s] copying package.xml -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/share/robot_drive
+[3.295s] copying launch/drive.launch.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/share/robot_drive/launch
+[3.295s] running install_egg_info
+[3.302s] removing '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive-0.0.0-py3.10.egg-info' (and everything under it)
+[3.304s] Copying ../../build/robot_drive/robot_drive.egg-info to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages/robot_drive-0.0.0-py3.10.egg-info
+[3.310s] running install_scripts
+[3.393s] Installing joy_node script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[3.394s] Installing pwm script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[3.395s] Installing send_power script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/robot_drive
+[3.397s] writing list of installed files to '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/install.log'
+[3.515s] Invoked command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/robot_drive' returned '0': PYTHONPATH=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/install/robot_drive/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_drive build --build-base /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/build install --record /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/build/robot_drive/install.log --single-version-externally-managed install_data

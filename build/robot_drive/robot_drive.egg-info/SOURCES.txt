@@ -9,7 +9,9 @@ setup.py
 ../../build/robot_drive/robot_drive.egg-info/requires.txt
 ../../build/robot_drive/robot_drive.egg-info/top_level.txt
 ../../build/robot_drive/robot_drive.egg-info/zip-safe
+launch/dev.launch.py
 launch/drive.launch.py
+launch/robot.launch.py
 resource/robot_drive
 robot_drive/__init__.py
 robot_drive/joy_node.py

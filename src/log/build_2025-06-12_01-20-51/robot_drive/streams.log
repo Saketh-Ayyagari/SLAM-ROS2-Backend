@@ -1,0 +1,27 @@
+[4.398s] Invoking command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/robot_drive': PYTHONPATH=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_drive build --build-base /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/build install --record /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/install.log --single-version-externally-managed install_data
+[5.660s] running egg_info
+[5.663s] writing ../build/robot_drive/robot_drive.egg-info/PKG-INFO
+[5.665s] writing dependency_links to ../build/robot_drive/robot_drive.egg-info/dependency_links.txt
+[5.667s] writing entry points to ../build/robot_drive/robot_drive.egg-info/entry_points.txt
+[5.668s] writing requirements to ../build/robot_drive/robot_drive.egg-info/requires.txt
+[5.670s] writing top-level names to ../build/robot_drive/robot_drive.egg-info/top_level.txt
+[5.678s] reading manifest file '../build/robot_drive/robot_drive.egg-info/SOURCES.txt'
+[5.680s] adding license file 'LICENSE'
+[5.684s] writing manifest file '../build/robot_drive/robot_drive.egg-info/SOURCES.txt'
+[5.684s] running build
+[5.685s] running build_py
+[5.686s] copying robot_drive/encoder_publisher.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/build/lib/robot_drive
+[5.689s] running install
+[5.691s] running install_lib
+[5.695s] copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/build/lib/robot_drive/encoder_publisher.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages/robot_drive
+[5.700s] byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages/robot_drive/encoder_publisher.py to encoder_publisher.cpython-310.pyc
+[5.703s] running install_data
+[5.704s] running install_egg_info
+[5.713s] removing '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages/robot_drive-0.0.0-py3.10.egg-info' (and everything under it)
+[5.718s] Copying ../build/robot_drive/robot_drive.egg-info to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages/robot_drive-0.0.0-py3.10.egg-info
+[5.724s] running install_scripts
+[5.827s] Installing joy_node script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/robot_drive
+[5.829s] Installing pwm script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/robot_drive
+[5.831s] Installing send_power script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/robot_drive
+[5.833s] writing list of installed files to '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/install.log'
+[6.027s] Invoked command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/robot_drive' returned '0': PYTHONPATH=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_drive build --build-base /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/build install --record /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/install.log --single-version-externally-managed install_data

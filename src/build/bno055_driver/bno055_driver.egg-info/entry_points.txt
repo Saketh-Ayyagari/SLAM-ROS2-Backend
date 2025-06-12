@@ -1,0 +1,5 @@
+[console_scripts]
+bno055_driver = bno055_driver.bno055_driver:main
+imu_odometry = bno055_driver.odometry_publisher:main
+tf_odom_update = bno055_driver.publish_transform:main
+

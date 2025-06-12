@@ -15,7 +15,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         (os.path.join('share', package_name, 'launch'), glob('launch/*')),
     ],
-    install_requires=['setuptools'],
+    install_requires=['setuptools', 'numpy', 'pygame'],
     zip_safe=True,
     maintainer='tarkin',
     maintainer_email='sakethsarma07@gmail.com',
