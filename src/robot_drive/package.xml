@@ -7,6 +7,8 @@
   <maintainer email="sakethsarma07@gmail.com">tarkin</maintainer>
   <license>Apache-2.0</license>
 
+  <depend>rclpy</depend>
+
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>
@@ -14,6 +16,8 @@
 
   <exec_depend>pca9685</exec_depend>
   <exec_depend>robot_utils</exec_depend>
+  <exec_depend>numpy</exec_depend>
+  <exec_depend>pygame</exec_depend>  
 
   <export>
     <build_type>ament_python</build_type>

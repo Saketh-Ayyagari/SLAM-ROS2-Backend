@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: bno055-driver
+Version: 1.0.0
+Summary: ROS2 Driver Node for BNO055 IMU.
+Home-page: UNKNOWN
+Maintainer: reyespinr
+Maintainer-email: reyespinr@vcu.edu
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+

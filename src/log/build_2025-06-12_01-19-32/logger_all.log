@@ -1,0 +1,229 @@
+[0.750s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.750s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff92825660>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff929c2f80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff929c2f80>>, mixin_verb=('build',))
+[2.012s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.013s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.013s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.013s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.013s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.013s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.014s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src'
+[2.014s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.015s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.016s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.017s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.083s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.084s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(bno055_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.085s] Level 1:colcon.colcon_core.package_identification:_identify(bno055_driver) by extension 'ignore'
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(bno055_driver) by extension 'ignore_ament_install'
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(bno055_driver) by extensions ['colcon_pkg']
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(bno055_driver) by extension 'colcon_pkg'
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(bno055_driver) by extensions ['colcon_meta']
+[2.086s] Level 1:colcon.colcon_core.package_identification:_identify(bno055_driver) by extension 'colcon_meta'
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(bno055_driver) by extensions ['ros']
+[2.087s] Level 1:colcon.colcon_core.package_identification:_identify(bno055_driver) by extension 'ros'
+[2.099s] DEBUG:colcon.colcon_core.package_identification:Package 'bno055_driver' with type 'ros.ament_python' and name 'bno055_driver'
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.100s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.101s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.102s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'ignore'
+[2.103s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'ignore_ament_install'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['colcon_pkg']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'colcon_pkg'
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['colcon_meta']
+[2.104s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'colcon_meta'
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['ros']
+[2.105s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'ros'
+[2.108s] DEBUG:colcon.colcon_core.package_identification:Package 'ldlidar_stl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_stl_ros2'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.109s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(robot_drive) by extensions ['ignore', 'ignore_ament_install']
+[2.110s] Level 1:colcon.colcon_core.package_identification:_identify(robot_drive) by extension 'ignore'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(robot_drive) by extension 'ignore_ament_install'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(robot_drive) by extensions ['colcon_pkg']
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(robot_drive) by extension 'colcon_pkg'
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(robot_drive) by extensions ['colcon_meta']
+[2.111s] Level 1:colcon.colcon_core.package_identification:_identify(robot_drive) by extension 'colcon_meta'
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(robot_drive) by extensions ['ros']
+[2.112s] Level 1:colcon.colcon_core.package_identification:_identify(robot_drive) by extension 'ros'
+[2.115s] DEBUG:colcon.colcon_core.package_identification:Package 'robot_drive' with type 'ros.ament_python' and name 'robot_drive'
+[2.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.290s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[2.297s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.469s] Level 5:colcon.colcon_core.verb:set package 'bno055_driver' build argument 'cmake_args' from command line to 'None'
+[2.470s] Level 5:colcon.colcon_core.verb:set package 'bno055_driver' build argument 'cmake_target' from command line to 'None'
+[2.470s] Level 5:colcon.colcon_core.verb:set package 'bno055_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.470s] Level 5:colcon.colcon_core.verb:set package 'bno055_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.470s] Level 5:colcon.colcon_core.verb:set package 'bno055_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.470s] Level 5:colcon.colcon_core.verb:set package 'bno055_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.470s] Level 5:colcon.colcon_core.verb:set package 'bno055_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.470s] Level 5:colcon.colcon_core.verb:set package 'bno055_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.471s] Level 5:colcon.colcon_core.verb:set package 'bno055_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.471s] DEBUG:colcon.colcon_core.verb:Building package 'bno055_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver', 'merge_install': False, 'path': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/bno055_driver', 'symlink_install': False, 'test_result_base': None}
+[2.472s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_args' from command line to 'None'
+[2.472s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_target' from command line to 'None'
+[2.473s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.473s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.473s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.473s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.473s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.473s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.473s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.473s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_stl_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2', 'merge_install': False, 'path': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/ldlidar_stl_ros2', 'symlink_install': False, 'test_result_base': None}
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'robot_drive' build argument 'cmake_args' from command line to 'None'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'robot_drive' build argument 'cmake_target' from command line to 'None'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'robot_drive' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'robot_drive' build argument 'cmake_clean_cache' from command line to 'False'
+[2.475s] Level 5:colcon.colcon_core.verb:set package 'robot_drive' build argument 'cmake_clean_first' from command line to 'False'
+[2.476s] Level 5:colcon.colcon_core.verb:set package 'robot_drive' build argument 'cmake_force_configure' from command line to 'False'
+[2.476s] Level 5:colcon.colcon_core.verb:set package 'robot_drive' build argument 'ament_cmake_args' from command line to 'None'
+[2.476s] Level 5:colcon.colcon_core.verb:set package 'robot_drive' build argument 'catkin_cmake_args' from command line to 'None'
+[2.476s] Level 5:colcon.colcon_core.verb:set package 'robot_drive' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.476s] DEBUG:colcon.colcon_core.verb:Building package 'robot_drive' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive', 'merge_install': False, 'path': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/robot_drive', 'symlink_install': False, 'test_result_base': None}
+[2.477s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.480s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.481s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/bno055_driver' with build type 'ament_python'
+[2.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055_driver', 'ament_prefix_path')
+[2.497s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/hook/ament_prefix_path.ps1'
+[2.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/hook/ament_prefix_path.dsv'
+[2.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/hook/ament_prefix_path.sh'
+[2.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.527s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/ldlidar_stl_ros2' with build type 'ament_cmake'
+[2.527s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/ldlidar_stl_ros2'
+[2.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.529s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.544s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/robot_drive' with build type 'ament_python'
+[2.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_drive', 'ament_prefix_path')
+[2.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/robot_drive/hook/ament_prefix_path.ps1'
+[2.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/robot_drive/hook/ament_prefix_path.dsv'
+[2.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/robot_drive/hook/ament_prefix_path.sh'
+[2.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.554s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.793s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/bno055_driver'
+[3.794s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.794s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2
+[5.144s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/robot_drive'
+[5.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.146s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/bno055_driver': PYTHONPATH=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bno055_driver build --build-base /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build install --record /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/install.log --install-scripts $base/lib/bno055_driver --single-version-externally-managed install_data
+[7.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/robot_drive': PYTHONPATH=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_drive build --build-base /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/build install --record /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/install.log --single-version-externally-managed install_data
+[9.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/bno055_driver' returned '0': PYTHONPATH=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bno055_driver build --build-base /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build install --record /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/install.log --install-scripts $base/lib/bno055_driver --single-version-externally-managed install_data
+[10.190s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver' for CMake module files
+[10.193s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver' for CMake config files
+[10.197s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib'
+[10.198s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/bin'
+[10.198s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/pkgconfig/bno055_driver.pc'
+[10.199s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages'
+[10.199s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055_driver', 'pythonpath')
+[10.200s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/hook/pythonpath.ps1'
+[10.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/hook/pythonpath.dsv'
+[10.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/hook/pythonpath.sh'
+[10.207s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/bin'
+[10.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno055_driver)
+[10.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/package.ps1'
+[10.213s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/package.dsv'
+[10.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/package.sh'
+[10.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/package.bash'
+[10.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/package.zsh'
+[10.229s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/colcon-core/packages/bno055_driver)
+[10.235s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive' for CMake module files
+[10.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/robot_drive' returned '0': PYTHONPATH=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/robot_drive build --build-base /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/build install --record /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/install.log --single-version-externally-managed install_data
+[10.240s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive' for CMake config files
+[10.246s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib'
+[10.246s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/bin'
+[10.247s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/pkgconfig/robot_drive.pc'
+[10.248s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages'
+[10.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_drive', 'pythonpath')
+[10.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/robot_drive/hook/pythonpath.ps1'
+[10.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/robot_drive/hook/pythonpath.dsv'
+[10.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/robot_drive/hook/pythonpath.sh'
+[10.257s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/bin'
+[10.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_drive)
+[10.259s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/robot_drive/package.ps1'
+[10.261s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/robot_drive/package.dsv'
+[10.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/robot_drive/package.sh'
+[10.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/robot_drive/package.bash'
+[10.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/robot_drive/package.zsh'
+[10.269s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/share/colcon-core/packages/robot_drive)
+[15.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/ldlidar_stl_ros2 -DCMAKE_INSTALL_PREFIX=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2
+[15.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2 -- -j4 -l4
+[40.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2 -- -j4 -l4
+[40.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2
+[40.230s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_stl_ros2)
+[40.231s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2' for CMake module files
+[40.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2
+[40.235s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2' for CMake config files
+[40.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_stl_ros2', 'cmake_prefix_path')
+[40.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.ps1'
+[40.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.dsv'
+[40.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.sh'
+[40.244s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/lib'
+[40.245s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/bin'
+[40.245s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/lib/pkgconfig/ldlidar_stl_ros2.pc'
+[40.246s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/lib/python3.10/site-packages'
+[40.247s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/bin'
+[40.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.ps1'
+[40.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv'
+[40.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.sh'
+[40.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.bash'
+[40.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.zsh'
+[40.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/colcon-core/packages/ldlidar_stl_ros2)
+[40.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_stl_ros2)
+[40.262s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2' for CMake module files
+[40.265s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2' for CMake config files
+[40.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_stl_ros2', 'cmake_prefix_path')
+[40.268s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.ps1'
+[40.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.dsv'
+[40.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.sh'
+[40.277s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/lib'
+[40.277s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/bin'
+[40.278s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/lib/pkgconfig/ldlidar_stl_ros2.pc'
+[40.279s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/lib/python3.10/site-packages'
+[40.280s] Level 1:colcon.colcon_core.environment:checking '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/bin'
+[40.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.ps1'
+[40.285s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv'
+[40.288s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.sh'
+[40.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.bash'
+[40.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.zsh'
+[40.297s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/colcon-core/packages/ldlidar_stl_ros2)
+[40.299s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[40.300s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[40.301s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[40.301s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[40.335s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[40.336s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[40.336s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[40.342s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[40.343s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[40.344s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/local_setup.ps1'
+[40.350s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/_local_setup_util_ps1.py'
+[40.358s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/setup.ps1'
+[40.364s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/local_setup.sh'
+[40.368s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/_local_setup_util_sh.py'
+[40.371s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/setup.sh'
+[40.377s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/local_setup.bash'
+[40.381s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/setup.bash'
+[40.390s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/local_setup.zsh'
+[40.395s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/setup.zsh'

@@ -1,0 +1,53 @@
+running egg_info
+creating ../build/bno055_driver/bno055_driver.egg-info
+writing ../build/bno055_driver/bno055_driver.egg-info/PKG-INFO
+writing dependency_links to ../build/bno055_driver/bno055_driver.egg-info/dependency_links.txt
+writing entry points to ../build/bno055_driver/bno055_driver.egg-info/entry_points.txt
+writing requirements to ../build/bno055_driver/bno055_driver.egg-info/requires.txt
+writing top-level names to ../build/bno055_driver/bno055_driver.egg-info/top_level.txt
+writing manifest file '../build/bno055_driver/bno055_driver.egg-info/SOURCES.txt'
+reading manifest file '../build/bno055_driver/bno055_driver.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/bno055_driver/bno055_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build
+creating /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib
+creating /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver
+copying bno055_driver/path_visualizer.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver
+copying bno055_driver/bno055_driver.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver
+copying bno055_driver/imu_test.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver
+copying bno055_driver/__init__.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver
+copying bno055_driver/odometry_publisher.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver
+copying bno055_driver/publish_transform.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver
+running install
+running install_lib
+creating /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver
+copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver/path_visualizer.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver
+copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver/bno055_driver.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver
+copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver/imu_test.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver
+copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver/__init__.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver
+copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver/odometry_publisher.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver
+copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build/lib/bno055_driver/publish_transform.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver
+byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver/path_visualizer.py to path_visualizer.cpython-310.pyc
+byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver/bno055_driver.py to bno055_driver.cpython-310.pyc
+byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver/imu_test.py to imu_test.cpython-310.pyc
+byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver/odometry_publisher.py to odometry_publisher.cpython-310.pyc
+byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver/publish_transform.py to publish_transform.cpython-310.pyc
+running install_data
+creating /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/ament_index
+creating /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/ament_index/resource_index
+creating /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/ament_index/resource_index/packages
+copying resource/bno055_driver -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver
+copying launch/imu.launch.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver
+creating /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/config
+copying config/params.yaml -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/share/bno055_driver/config
+running install_egg_info
+Copying ../build/bno055_driver/bno055_driver.egg-info to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver-1.0.0-py3.10.egg-info
+running install_scripts
+Installing bno055_driver script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/bno055_driver
+Installing imu_odometry script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/bno055_driver
+Installing tf_odom_update script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/bno055_driver
+writing list of installed files to '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/install.log'

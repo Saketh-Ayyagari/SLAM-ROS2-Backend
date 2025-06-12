@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.001028] (bno055_driver) JobQueued: {'identifier': 'bno055_driver', 'dependencies': OrderedDict()}
+[0.002030] (ldlidar_stl_ros2) JobQueued: {'identifier': 'ldlidar_stl_ros2', 'dependencies': OrderedDict()}
+[0.002637] (robot_drive) JobQueued: {'identifier': 'robot_drive', 'dependencies': OrderedDict()}
+[0.003119] (bno055_driver) JobStarted: {'identifier': 'bno055_driver'}
+[0.036680] (ldlidar_stl_ros2) JobStarted: {'identifier': 'ldlidar_stl_ros2'}
+[0.054583] (robot_drive) JobStarted: {'identifier': 'robot_drive'}
+[0.099183] (-) TimerEvent: {}
+[0.200084] (-) TimerEvent: {}
+[0.300911] (-) TimerEvent: {}
+[0.401720] (-) TimerEvent: {}
+[0.502457] (-) TimerEvent: {}
+[0.603134] (-) TimerEvent: {}
+[0.703857] (-) TimerEvent: {}
+[0.804586] (-) TimerEvent: {}
+[0.905281] (-) TimerEvent: {}
+[1.006020] (-) TimerEvent: {}
+[1.106707] (-) TimerEvent: {}
+[1.207537] (-) TimerEvent: {}
+[1.292708] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'cmake'}
+[1.295496] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'build'}
+[1.298552] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2', '--', '-j4', '-l4'], 'cwd': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'monkeydluffy'), ('SSH_CLIENT', '192.168.68.202 56290 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/monkeydluffy'), ('OLDPWD', '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'monkeydluffy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/monkeydluffy/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2'), ('SSH_CONNECTION', '192.168.68.202 56290 192.168.68.199 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.310132] (-) TimerEvent: {}
+[1.411989] (-) TimerEvent: {}
+[1.478975] (ldlidar_stl_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ldlidar_stl_ros2_node\x1b[0m\n'}
+[1.512178] (-) TimerEvent: {}
+[1.611396] (ldlidar_stl_ros2) StdoutLine: {'line': b'[100%] Built target ldlidar_stl_ros2_node\n'}
+[1.612296] (-) TimerEvent: {}
+[1.713439] (-) TimerEvent: {}
+[1.814579] (-) TimerEvent: {}
+[1.915352] (-) TimerEvent: {}
+[2.016043] (-) TimerEvent: {}
+[2.116743] (-) TimerEvent: {}
+[2.217466] (-) TimerEvent: {}
+[2.318256] (-) TimerEvent: {}
+[2.419576] (-) TimerEvent: {}
+[2.520436] (-) TimerEvent: {}
+[2.592658] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[2.595396] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'install'}
+[2.620581] (-) TimerEvent: {}
+[2.631452] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2'], 'cwd': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'monkeydluffy'), ('SSH_CLIENT', '192.168.68.202 56290 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/monkeydluffy'), ('OLDPWD', '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'monkeydluffy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/monkeydluffy/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/ldlidar_stl_ros2'), ('SSH_CONNECTION', '192.168.68.202 56290 192.168.68.199 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.663301] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.664807] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node\n'}
+[2.666300] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch\n'}
+[2.667104] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/stl27l.launch.py\n'}
+[2.667701] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_stl27l.launch.py\n'}
+[2.668280] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py\n'}
+[2.669376] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py\n'}
+[2.670024] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2\n'}
+[2.670458] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz\n'}
+[2.671063] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2\n'}
+[2.671652] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2\n'}
+[2.672127] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh\n'}
+[2.672828] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv\n'}
+[2.673531] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh\n'}
+[2.674210] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv\n'}
+[2.674770] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash\n'}
+[2.675356] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh\n'}
+[2.675913] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh\n'}
+[2.676522] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv\n'}
+[2.677130] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Installing: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv\n'}
+[2.679387] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2\n'}
+[2.680111] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake\n'}
+[2.680739] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake\n'}
+[2.681476] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Up-to-date: /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml\n'}
+[2.687471] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[2.720780] (-) TimerEvent: {}
+[2.791424] (ldlidar_stl_ros2) JobEnded: {'identifier': 'ldlidar_stl_ros2', 'rc': 0}
+[2.821006] (-) TimerEvent: {}
+[2.922858] (-) TimerEvent: {}
+[3.024286] (-) TimerEvent: {}
+[3.125063] (-) TimerEvent: {}
+[3.225870] (-) TimerEvent: {}
+[3.326564] (-) TimerEvent: {}
+[3.427324] (-) TimerEvent: {}
+[3.528016] (-) TimerEvent: {}
+[3.628734] (-) TimerEvent: {}
+[3.729462] (-) TimerEvent: {}
+[3.830166] (-) TimerEvent: {}
+[3.930888] (-) TimerEvent: {}
+[4.031783] (-) TimerEvent: {}
+[4.132917] (-) TimerEvent: {}
+[4.233979] (-) TimerEvent: {}
+[4.335337] (-) TimerEvent: {}
+[4.367319] (bno055_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/bno055_driver', 'build', '--build-base', '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build', 'install', '--record', '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/install.log', '--install-scripts', '$base/lib/bno055_driver', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/bno055_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'monkeydluffy', 'SSH_CLIENT': '192.168.68.202 56290 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/monkeydluffy', 'OLDPWD': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'monkeydluffy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/monkeydluffy/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver', 'SSH_CONNECTION': '192.168.68.202 56290 192.168.68.199 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.435560] (-) TimerEvent: {}
+[4.446854] (robot_drive) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/robot_drive', 'build', '--build-base', '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/build', 'install', '--record', '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/robot_drive', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'monkeydluffy', 'SSH_CLIENT': '192.168.68.202 56290 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/monkeydluffy', 'OLDPWD': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'monkeydluffy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/monkeydluffy/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive', 'SSH_CONNECTION': '192.168.68.202 56290 192.168.68.199 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.535809] (-) TimerEvent: {}
+[4.636615] (-) TimerEvent: {}
+[4.737412] (-) TimerEvent: {}
+[4.838144] (-) TimerEvent: {}
+[4.939031] (-) TimerEvent: {}
+[5.039769] (-) TimerEvent: {}
+[5.140475] (-) TimerEvent: {}
+[5.241191] (-) TimerEvent: {}
+[5.342582] (-) TimerEvent: {}
+[5.443347] (-) TimerEvent: {}
+[5.544122] (-) TimerEvent: {}
+[5.634396] (bno055_driver) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[5.635255] (bno055_driver) StderrLine: {'line': b'  warnings.warn(\n'}
+[5.644288] (-) TimerEvent: {}
+[5.674238] (bno055_driver) StdoutLine: {'line': b'running egg_info\n'}
+[5.677832] (bno055_driver) StdoutLine: {'line': b'writing ../build/bno055_driver/bno055_driver.egg-info/PKG-INFO\n'}
+[5.679178] (bno055_driver) StdoutLine: {'line': b'writing dependency_links to ../build/bno055_driver/bno055_driver.egg-info/dependency_links.txt\n'}
+[5.680324] (bno055_driver) StdoutLine: {'line': b'writing entry points to ../build/bno055_driver/bno055_driver.egg-info/entry_points.txt\n'}
+[5.681363] (bno055_driver) StdoutLine: {'line': b'writing requirements to ../build/bno055_driver/bno055_driver.egg-info/requires.txt\n'}
+[5.683105] (bno055_driver) StdoutLine: {'line': b'writing top-level names to ../build/bno055_driver/bno055_driver.egg-info/top_level.txt\n'}
+[5.692547] (bno055_driver) StdoutLine: {'line': b"reading manifest file '../build/bno055_driver/bno055_driver.egg-info/SOURCES.txt'\n"}
+[5.694227] (bno055_driver) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.698729] (bno055_driver) StdoutLine: {'line': b"writing manifest file '../build/bno055_driver/bno055_driver.egg-info/SOURCES.txt'\n"}
+[5.700322] (bno055_driver) StdoutLine: {'line': b'running build\n'}
+[5.700877] (bno055_driver) StdoutLine: {'line': b'running build_py\n'}
+[5.703503] (bno055_driver) StdoutLine: {'line': b'running install\n'}
+[5.704973] (bno055_driver) StdoutLine: {'line': b'running install_lib\n'}
+[5.712822] (bno055_driver) StdoutLine: {'line': b'running install_data\n'}
+[5.714107] (robot_drive) StdoutLine: {'line': b'running egg_info\n'}
+[5.714986] (bno055_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.717213] (robot_drive) StdoutLine: {'line': b'writing ../build/robot_drive/robot_drive.egg-info/PKG-INFO\n'}
+[5.719208] (robot_drive) StdoutLine: {'line': b'writing dependency_links to ../build/robot_drive/robot_drive.egg-info/dependency_links.txt\n'}
+[5.721372] (robot_drive) StdoutLine: {'line': b'writing entry points to ../build/robot_drive/robot_drive.egg-info/entry_points.txt\n'}
+[5.722426] (robot_drive) StdoutLine: {'line': b'writing requirements to ../build/robot_drive/robot_drive.egg-info/requires.txt\n'}
+[5.724823] (robot_drive) StdoutLine: {'line': b'writing top-level names to ../build/robot_drive/robot_drive.egg-info/top_level.txt\n'}
+[5.728025] (bno055_driver) StdoutLine: {'line': b"removing '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver-1.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.730212] (bno055_driver) StdoutLine: {'line': b'Copying ../build/bno055_driver/bno055_driver.egg-info to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver-1.0.0-py3.10.egg-info\n'}
+[5.732805] (robot_drive) StdoutLine: {'line': b"reading manifest file '../build/robot_drive/robot_drive.egg-info/SOURCES.txt'\n"}
+[5.734336] (robot_drive) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.737198] (bno055_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[5.738557] (robot_drive) StdoutLine: {'line': b"writing manifest file '../build/robot_drive/robot_drive.egg-info/SOURCES.txt'\n"}
+[5.739089] (robot_drive) StdoutLine: {'line': b'running build\n'}
+[5.739613] (robot_drive) StdoutLine: {'line': b'running build_py\n'}
+[5.740752] (robot_drive) StdoutLine: {'line': b'copying robot_drive/encoder_publisher.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/build/lib/robot_drive\n'}
+[5.743479] (robot_drive) StdoutLine: {'line': b'running install\n'}
+[5.744415] (-) TimerEvent: {}
+[5.745109] (robot_drive) StdoutLine: {'line': b'running install_lib\n'}
+[5.749932] (robot_drive) StdoutLine: {'line': b'copying /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/build/lib/robot_drive/encoder_publisher.py -> /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages/robot_drive\n'}
+[5.754351] (robot_drive) StdoutLine: {'line': b'byte-compiling /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages/robot_drive/encoder_publisher.py to encoder_publisher.cpython-310.pyc\n'}
+[5.757578] (robot_drive) StdoutLine: {'line': b'running install_data\n'}
+[5.758999] (robot_drive) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.767316] (robot_drive) StdoutLine: {'line': b"removing '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages/robot_drive-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.772646] (robot_drive) StdoutLine: {'line': b'Copying ../build/robot_drive/robot_drive.egg-info to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages/robot_drive-0.0.0-py3.10.egg-info\n'}
+[5.778798] (robot_drive) StdoutLine: {'line': b'running install_scripts\n'}
+[5.824037] (bno055_driver) StdoutLine: {'line': b'Installing bno055_driver script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/bno055_driver\n'}
+[5.827224] (bno055_driver) StdoutLine: {'line': b'Installing imu_odometry script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/bno055_driver\n'}
+[5.828025] (bno055_driver) StdoutLine: {'line': b'Installing tf_odom_update script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/bno055_driver\n'}
+[5.830282] (bno055_driver) StdoutLine: {'line': b"writing list of installed files to '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/install.log'\n"}
+[5.844674] (-) TimerEvent: {}
+[5.880923] (robot_drive) StdoutLine: {'line': b'Installing joy_node script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/robot_drive\n'}
+[5.883257] (robot_drive) StdoutLine: {'line': b'Installing pwm script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/robot_drive\n'}
+[5.885083] (robot_drive) StdoutLine: {'line': b'Installing send_power script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/robot_drive\n'}
+[5.887833] (robot_drive) StdoutLine: {'line': b"writing list of installed files to '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/robot_drive/install.log'\n"}
+[5.949803] (-) TimerEvent: {}
+[6.018128] (bno055_driver) CommandEnded: {'returncode': 0}
+[6.049977] (-) TimerEvent: {}
+[6.074442] (bno055_driver) JobEnded: {'identifier': 'bno055_driver', 'rc': 0}
+[6.081680] (robot_drive) CommandEnded: {'returncode': 0}
+[6.119359] (robot_drive) JobEnded: {'identifier': 'robot_drive', 'rc': 0}
+[6.122268] (-) EventReactorShutdown: {}

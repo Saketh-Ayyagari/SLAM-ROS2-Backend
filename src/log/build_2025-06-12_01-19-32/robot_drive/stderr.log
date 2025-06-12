@@ -1,0 +1,5 @@
+  File "/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/robot_drive/lib/python3.10/site-packages/robot_drive/encoder_publisher.py", line 13
+    LEFT_ENCODER = 
+                   ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,26 @@
+[4.375s] Invoking command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/bno055_driver': PYTHONPATH=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bno055_driver build --build-base /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build install --record /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/install.log --install-scripts $base/lib/bno055_driver --single-version-externally-managed install_data
+[5.632s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.632s]   warnings.warn(
+[5.672s] running egg_info
+[5.675s] writing ../build/bno055_driver/bno055_driver.egg-info/PKG-INFO
+[5.676s] writing dependency_links to ../build/bno055_driver/bno055_driver.egg-info/dependency_links.txt
+[5.678s] writing entry points to ../build/bno055_driver/bno055_driver.egg-info/entry_points.txt
+[5.679s] writing requirements to ../build/bno055_driver/bno055_driver.egg-info/requires.txt
+[5.680s] writing top-level names to ../build/bno055_driver/bno055_driver.egg-info/top_level.txt
+[5.690s] reading manifest file '../build/bno055_driver/bno055_driver.egg-info/SOURCES.txt'
+[5.691s] adding license file 'LICENSE'
+[5.697s] writing manifest file '../build/bno055_driver/bno055_driver.egg-info/SOURCES.txt'
+[5.697s] running build
+[5.698s] running build_py
+[5.701s] running install
+[5.702s] running install_lib
+[5.710s] running install_data
+[5.712s] running install_egg_info
+[5.725s] removing '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver-1.0.0-py3.10.egg-info' (and everything under it)
+[5.727s] Copying ../build/bno055_driver/bno055_driver.egg-info to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages/bno055_driver-1.0.0-py3.10.egg-info
+[5.735s] running install_scripts
+[5.821s] Installing bno055_driver script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/bno055_driver
+[5.824s] Installing imu_odometry script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/bno055_driver
+[5.825s] Installing tf_odom_update script to /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/bno055_driver
+[5.828s] writing list of installed files to '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/install.log'
+[6.016s] Invoked command in '/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/bno055_driver' returned '0': PYTHONPATH=/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/install/bno055_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/bno055_driver build --build-base /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/build install --record /home/monkeydluffy/ros2_packages/SLAM-ROS2-Backend/src/build/bno055_driver/install.log --install-scripts $base/lib/bno055_driver --single-version-externally-managed install_data
