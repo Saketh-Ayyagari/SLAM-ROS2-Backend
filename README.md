@@ -24,7 +24,7 @@ git clone https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2
 ```
 6. On either your Raspberry Pi or development machine, run the following command to download the [slam-toolbox](https://github.com/SteveMacenski/slam_toolbox) package
 ```bash
-sudo apt-get install ros-humble-slam-toolbox
+sudo apt-get install ros-[humble/jammy]-slam-toolbox
 ```
 ## NOTE: Will soon put up a _requirements.txt_ for required packages
 
