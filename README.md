@@ -19,6 +19,7 @@ cd SLAM-ROS2-Backend/src/
 ```
 git clone https://github.com/Saketh-Ayyagari/bno055_driver
 ```
+```
 git clone https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2
 ```
 6. On either your Raspberry Pi or development machine, run the following command to download the [slam-toolbox](https://github.com/SteveMacenski/slam_toolbox) package
