@@ -17,8 +17,8 @@ cd SLAM-ROS2-Backend/src/
 ```
 5. Clone the following two github repositories. These are the drivers for the Adafruit BNO055 IMU and the LD20 360 degree LiDAR
 ```bash
-git clone https://github.com/the-hive-lab/bno055_driver
-```
+git clone [https://github.com/the-hive-lab/bno055_driver
+](https://github.com/Saketh-Ayyagari/bno055_driver)```
 ```bash
 git clone https://github.com/ldrobotSensorTeam/ldlidar_stl_ros2
 ```
