@@ -2,7 +2,13 @@
 Semester 2 High School Senior Project where I developed and utilized ROS2 packages for controlling an Andino differential drive robot for performing Simultaneous Localization and Mapping.
 
 ## Physical hardware required
-Will update w/ links soon
+| Part | Purpose |
+|------|-------------|
+| Raspberry Pi 4B/5 | Receives and processes LiDAR, IMU, and encoder data, and controls motors. |
+| LD20 LiDAR | Mapping the environment. |
+| BNO055 IMU | Gets robot heading; can also be used for localization. |
+| Infared Optical Encoders | Track wheel rotations to translate into distance.|
+| PCA9685 Motor and Servo Driver HAT for Raspberry Pi | Sends PWM signals to motors. |
 
 ## How can I use this ROS2 package?
 1. Make sure you download Ubuntu 22.04 or 24.04 onto your Raspberry Pi 4/5 (respectively).
