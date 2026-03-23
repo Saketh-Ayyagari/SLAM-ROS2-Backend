@@ -1,5 +1,5 @@
 # About this project
-Semester 2 High School Senior Project where I developed and utilized ROS2 packages for controlling an Andino differential drive robot for performing Simultaneous Localization and Mapping.
+Semester 2 Project where I developed and utilized ROS2 packages for controlling an Andino differential drive robot for performing Simultaneous Localization and Mapping.
 
 ## Physical hardware required
 | Part | Purpose |
